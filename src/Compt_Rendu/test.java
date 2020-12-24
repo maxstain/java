@@ -1,10 +1,5 @@
 package compte_rendu;
-import compte_rendu.ltri;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Scanner;
 import java.util.Vector;
 
@@ -52,7 +47,6 @@ public class test {
 		showItem(personne);
 		System.out.println("#####################");
 		System.out.println("Apres");
-		ltri.trieNom();
 		showItem(personne);
 	}
 }
